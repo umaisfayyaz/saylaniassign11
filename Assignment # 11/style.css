@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color: #111;
+}
+
+.text {
+    text-align: center;
+}
+
+.text h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5rem;
+    font-size: 40px;
+    color: lime;
+}
+
+.text span {
+    color: white;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form input {
+    padding: 0.5rem 1rem;
+    outline: none;
+    height: 50px;
+    width: 450px;
+    margin: 0.25rem;
+    font-size: 1.05rem;
+    border-radius: 25px;
+    border: none;
+}
+
+.form .add-button {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: lime;
+    margin: 0.25px;
+    color: white;
+    cursor: pointer;
+}
+
+.form .del-button {
+    height: 50px;
+    width: 90px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: lime;
+    margin: 2px;
+    color: white;
+    cursor: pointer;
+}
+
+#todo-list li {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+#todo-list .btn {
+    color: white;
+    padding: 10px;
+    background-color: lime;
+    border: none;
+    margin: 10px;
+    border-radius: 25px;
+    width: 80px;
+    cursor: pointer;
+}
